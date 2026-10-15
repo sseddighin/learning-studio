@@ -1,0 +1,9 @@
+{
+  "$schema": "https://unpkg.com/wrangler@4.151.0/config-schema.json",
+  "name": "learning-studio",
+  "compatibility_date": "2026-10-14",
+  "assets": {
+    "directory": "."
+  },
+  "previews": {}
+}

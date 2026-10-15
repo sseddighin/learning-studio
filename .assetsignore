@@ -1,0 +1,4 @@
+# Only public website files belong in the static asset deployment.
+*
+!/index.html
+!/styles.css
