@@ -1,6 +1,6 @@
-# Learning Studio
+# Future Learning Studio
 
-A responsive, single-page website for a fictional independent learning collective. It is not affiliated with UCI. All people and events are fictional, and no registration or data collection is offered.
+A responsive, single-page website for a fictional university initiative for faculty, educators, researchers, and community partners. It is not affiliated with UCI. All people and events are fictional, and no registration or data collection is offered.
 
 ## Files
 
@@ -47,3 +47,7 @@ For GitHub Pages, publish the main branch from `/ (root)`. All asset paths are r
 ## Validation
 
 The site can be checked using a local HTTP server and a browser at desktop and mobile widths. Check section links, keyboard focus, contrast, text wrapping, and horizontal overflow. There is no JavaScript, backend, form, or automated test suite.
+
+## Content and accessibility
+
+The page includes a hero, approach, three programs, dated sample workshops, fictional collaborators, and audience-specific involvement pathways. All events and people are fictional. It is not an official UCI site and offers no registration, contact form, or data collection. Navigation uses native anchor links and remains visible on mobile, with a skip link, visible focus, reduced-motion support, and semantic section headings. No JavaScript is required.

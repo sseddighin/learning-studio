@@ -218,3 +218,16 @@ nav a { display: inline-flex; align-items: center; min-height: 44px; }
 .brand-mark { font-size: 0; width: 28px; height: 28px; top: 6px; border: 1px solid var(--teal); transform: rotate(45deg); }
 .brand-mark::after { content: ''; position: absolute; inset: 6px; border: 1px solid var(--teal); }
 .footer-emblem { display: inline-block; width: 14px; height: 14px; margin-right: 8px; border: 1px solid var(--teal); transform: rotate(45deg); }
+
+/* Collaboration pathways use the same editorial rhythm as the programs. */
+.collaborate { border-bottom: 1px solid var(--line); }
+.collaborate-intro { max-width: 640px; color: var(--muted); }
+.collaboration-paths { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px; margin-block: 36px; }
+.collaboration-paths article { border-top: 2px solid var(--teal); padding-top: 24px; }
+.collaboration-paths h3 { font: 400 25px/1.3 var(--serif); }
+.collaboration-paths p { color: var(--muted); }
+.collaboration-paths a, .small-note a { text-decoration: underline; display: inline-block; padding-block: 10px; }
+.wordmark { font-size: 22px; }
+:target { scroll-margin-top: 28px; }
+@media (max-width: 760px) { .collaboration-paths { grid-template-columns: 1fr; gap: 24px; } }
+@media (forced-colors: active) { .button, .nav-cta { border: 1px solid ButtonText; } }
